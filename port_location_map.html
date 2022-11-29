@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9ada7ed2d03730e6de95171d4a5cef84 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9ada7ed2d03730e6de95171d4a5cef84" ></div>
+        
+</body>
+<script>    
+    
+            var map_9ada7ed2d03730e6de95171d4a5cef84 = L.map(
+                "map_9ada7ed2d03730e6de95171d4a5cef84",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    Location: [295252.71376625, 5709555.8674312],
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e2e9efee695a3894b00d438b6c752235 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9ada7ed2d03730e6de95171d4a5cef84);
+        
+    
+            var marker_34cfbb3b7dc30b9477c18261f140fcf8 = L.marker(
+                [51.5, 0.05],
+                {}
+            ).addTo(map_9ada7ed2d03730e6de95171d4a5cef84);
+        
+    
+            var marker_9192eea3a1dbf4e4caed4ae79c24cddc = L.marker(
+                [51.5, 0.05],
+                {}
+            ).addTo(map_9ada7ed2d03730e6de95171d4a5cef84);
+        
+    
+            marker_9192eea3a1dbf4e4caed4ae79c24cddc.bindTooltip(
+                `<div>
+                     London
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c8bbfa431a7ba6c5fbd0e2ae18f519a = L.marker(
+                [53.6283825924211, -0.193455346899709],
+                {}
+            ).addTo(map_9ada7ed2d03730e6de95171d4a5cef84);
+        
+    
+            marker_4c8bbfa431a7ba6c5fbd0e2ae18f519a.bindTooltip(
+                `<div>
+                     Grimsby & Immingham
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_320505fb4db1249016e60e27f1ff1c70 = L.marker(
+                [33.7292, -118.262],
+                {}
+            ).addTo(map_9ada7ed2d03730e6de95171d4a5cef84);
+        
+    
+            marker_320505fb4db1249016e60e27f1ff1c70.bindTooltip(
+                `<div>
+                     Los Angeles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8306d61b7f8316b37688897f865818ac = L.marker(
+                [37.7957, -122.2792],
+                {}
+            ).addTo(map_9ada7ed2d03730e6de95171d4a5cef84);
+        
+    
+            marker_8306d61b7f8316b37688897f865818ac.bindTooltip(
+                `<div>
+                     Oakland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c975809e4df6cc8db0424817e694b65 = L.marker(
+                [51.5, 0.05],
+                {}
+            ).addTo(map_9ada7ed2d03730e6de95171d4a5cef84);
+        
+    
+            marker_2c975809e4df6cc8db0424817e694b65.bindTooltip(
+                `<div>
+                     London
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8744756eacc253c46c8e969245871620 = L.marker(
+                [53.6283825924211, -0.193455346899709],
+                {}
+            ).addTo(map_9ada7ed2d03730e6de95171d4a5cef84);
+        
+    
+            marker_8744756eacc253c46c8e969245871620.bindTooltip(
+                `<div>
+                     Grimsby & Immingham
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d5872a8fa3fbb1a606176de623d1d06 = L.marker(
+                [33.7292, -118.262],
+                {}
+            ).addTo(map_9ada7ed2d03730e6de95171d4a5cef84);
+        
+    
+            marker_1d5872a8fa3fbb1a606176de623d1d06.bindTooltip(
+                `<div>
+                     Los Angeles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_abbc65822ffa125959ac24d48200bc34 = L.marker(
+                [37.7957, -122.2792],
+                {}
+            ).addTo(map_9ada7ed2d03730e6de95171d4a5cef84);
+        
+    
+            marker_abbc65822ffa125959ac24d48200bc34.bindTooltip(
+                `<div>
+                     Oakland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2fa8c6df781588ce50b37efca27d0d5f = L.marker(
+                [51.5, 0.05],
+                {}
+            ).addTo(map_9ada7ed2d03730e6de95171d4a5cef84);
+        
+    
+            marker_2fa8c6df781588ce50b37efca27d0d5f.bindTooltip(
+                `<div>
+                     Port of London
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4a0623c2f2dc0dbafff2dc3ed531a2e = L.marker(
+                [53.6283825924211, -0.193455346899709],
+                {}
+            ).addTo(map_9ada7ed2d03730e6de95171d4a5cef84);
+        
+    
+            marker_d4a0623c2f2dc0dbafff2dc3ed531a2e.bindTooltip(
+                `<div>
+                     Port of Grimsby & Immingham
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e20928b26f040fb1fb736ee9a4c3e4fd = L.marker(
+                [33.7292, -118.262],
+                {}
+            ).addTo(map_9ada7ed2d03730e6de95171d4a5cef84);
+        
+    
+            marker_e20928b26f040fb1fb736ee9a4c3e4fd.bindTooltip(
+                `<div>
+                     Port of Los Angeles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb4a70ab06d56814d597e421546ef41b = L.marker(
+                [37.7957, -122.2792],
+                {}
+            ).addTo(map_9ada7ed2d03730e6de95171d4a5cef84);
+        
+    
+            marker_fb4a70ab06d56814d597e421546ef41b.bindTooltip(
+                `<div>
+                     Port of Oakland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
